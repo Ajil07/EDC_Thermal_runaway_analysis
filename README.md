@@ -1,3 +1,4 @@
+
 # Comparative Analysis of Thermal Runaway in BJT Circuits: Fixed Bias vs. Voltage Divider Bias
 
 A SPICE-based investigation into BJT thermal instability, demonstrating how emitter negative feedback prevents thermal runaway during severe temperature shifts.
@@ -27,6 +28,9 @@ This project compares two biasing networks across a wide temperature sweep ($25^
 
 ---
 
+<img width="596" height="436" alt="Screenshot 2026-10-11 202914" src="https://github.com/user-attachments/assets/5c09870c-f765-43ba-80b1-84c84af9271e" />
+
+
 ## 📊 Key Findings
 
 | Metric | Fixed Bias (`Rc1`) | Voltage Divider Bias (`Rc2`) | Verdict |
@@ -45,6 +49,7 @@ This project compares two biasing networks across a wide temperature sweep ($25^
   ```spice
   .dc temp 25 150 1
 
+<img width="1594" height="357" alt="Screenshot 2026-10-11 202809" src="https://github.com/user-attachments/assets/a7de9745-a9f6-483b-b68d-a1649bcca12a" />
 
 Sweeps ambient junction temperature from $25^\circ\text{C}$ to $150^\circ\text{C}$ in $1^\circ\text{C}$ increments (126 total operating points).
 
