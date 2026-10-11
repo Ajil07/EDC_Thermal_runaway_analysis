@@ -1,0 +1,17 @@
+*
+Q_FIXED N003 N005 0 0 2N2222
+Rc1 N001 N003 1k
+R N001 N005 220k
+Vcc1 N001 0 12
+Q_VDB N004 N006 N007 0 2N2222
+Rc2 N002 N004 1k
+R1 N002 N006 22k
+R2 N006 0 10k
+Vcc2 N002 0 12
+R_E N007 0 470
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\ASUS\AppData\Local\LTspice\lib\cmp\standard.bjt
+.dc temp 25 150 1
+.backanno
+.end

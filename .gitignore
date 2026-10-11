@@ -1,0 +1,5 @@
+*.raw
+*.fft
+*.log.tmp
+Thumbs.db
+.DS_Store
